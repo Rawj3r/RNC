@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.risencolab.rogernkosi.rnc.logon.Logon;
+
 
 public class Splash extends AppCompatActivity {
 
