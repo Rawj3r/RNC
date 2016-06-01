@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context="com.risencolab.rogernkosi.rnc.Logon">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/r_colab"
+            android:layout_width="match_parent"
+            android:layout_height="150dip" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <EditText
+                android:id="@+id/lgn_username"
+                android:layout_marginRight="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:paddingLeft="10dip"
+                android:hint="Username"
+                android:textColorHint="@color/grey"
+                android:layout_height="50dip" />
+            <EditText
+                android:id="@+id/lgn_password"
+                android:layout_marginRight="10dip"
+                android:layout_marginLeft="10dip"
+                android:paddingLeft="10dip"
+                android:hint="Password"
+                android:textColorHint="@color/grey"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="50dip" />
+            
+            <Button
+                android:background="@drawable/back_ground_login"
+                android:layout_marginRight="50dip"
+                android:layout_marginLeft="50dip"
+                android:layout_gravity="center"
+                android:textSize="16dip"
+                android:id="@+id/btn_logon"
+                android:layout_marginTop="20dip"
+                android:text="@string/login"
+                android:layout_width="match_parent"
+                android:layout_height="35dip" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textSize="16dip"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Forgot Password"
+                    android:id="@+id/for_pass"
+                    android:layout_marginTop="20dip"
+                    android:textColor="@color/darkGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/not_reg_sign"
+                    android:textSize="16dip"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Not Registered? SignUp"
+                    android:layout_marginTop="20dip"
+                    android:textColor="@color/darkGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
